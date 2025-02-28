@@ -39,6 +39,10 @@ tsc --version
 # Initialize a new TypeScript project
 tsc --init
 
+#continue compile
+
+tsc -watch
+
 
 Basic TypeScript Configuration (tsconfig.json)
 
