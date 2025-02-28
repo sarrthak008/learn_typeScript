@@ -5,3 +5,6 @@ let avg:number=12.3;
 let mathFormula:number = Math.sqrt(16)
 
 //we define number in these forms .....
+
+console.log(myFevNumber.toString());
+console.log(myBirthDate.toLocaleString());
