@@ -33,3 +33,27 @@ const isPelindrome = (str:string):boolean =>{
 
 
 console.log(isPelindrome("12321"))
+
+/// find the  avg numbers  of an array elements
+
+const avgOfArray = (arr:number[]):number =>{
+     let avg = arr.reduce((sum,cuurentVal)=>sum+cuurentVal) / arr.length
+     return avg
+}
+
+console.log(avgOfArray([1,2,3,4,5]))
+
+// find the maximun value of an array
+
+const maxVal =  (arr:number[]):number=>{
+   let  maxval:number = arr[0];
+   arr.forEach(val => {
+       if(maxval <  val){
+        maxval = val
+       }
+    });
+ return maxval;
+}
+
+
+console.log(maxVal([12,2,2,4,5]))

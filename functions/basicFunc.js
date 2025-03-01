@@ -20,3 +20,20 @@ var isPelindrome = function (str) {
     return revStr === str ? true : false;
 };
 console.log(isPelindrome("12321"));
+/// find the  avg numbers  of an array elements
+var avgOfArray = function (arr) {
+    var avg = arr.reduce(function (sum, cuurentVal) { return sum + cuurentVal; }) / arr.length;
+    return avg;
+};
+console.log(avgOfArray([1, 2, 3, 4, 5]));
+// find the maximun value of an array
+var maxVal = function (arr) {
+    var maxval = arr[0];
+    arr.forEach(function (val) {
+        if (maxval < val) {
+            maxval = val;
+        }
+    });
+    return maxval;
+};
+console.log(maxVal([12, 2, 2, 4, 5]));
