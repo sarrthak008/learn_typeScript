@@ -64,3 +64,7 @@ function greet(name:string ,id:number):void{
 }
 
 greet("sarthak",1)
+
+
+
+
