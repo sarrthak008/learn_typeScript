@@ -37,3 +37,7 @@ var maxVal = function (arr) {
     return maxval;
 };
 console.log(maxVal([12, 2, 2, 4, 5]));
+function greet(name, id) {
+    console.log("welcome ".concat(name, " your id is ").concat(id));
+}
+greet("sarthak", 1);

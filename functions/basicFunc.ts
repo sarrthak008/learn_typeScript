@@ -57,3 +57,10 @@ const maxVal =  (arr:number[]):number=>{
 
 
 console.log(maxVal([12,2,2,4,5]))
+
+
+function greet(name:string ,id:number):void{
+      console.log(`welcome ${name} your id is ${id}`)
+}
+
+greet("sarthak",1)
